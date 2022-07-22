@@ -11,14 +11,15 @@
     "packages/@vitery/*",
     "packages/*"
   ],
-  "packageManager": "pnpm@7.5.2",
+  "packageManager": "pnpm@7.6.0",
   "scripts": {
     "build": "run-s build:tsc build:r",
     "build:r": "r -f cjs",
     "build:tsc": "tsc -b",
-    "clean": "rimraf 'packages/**/{lib,*.tsbuildinfo}'",
-    "codesandbox:install": "npx pnpm@7.5.1 i",
+    "clean": "rimraf coverage dist 'packages/**/{lib,*.tsbuildinfo}'",
+    "codesandbox:install": "npx pnpm@7.6.0 i",
     "dev": "w -e docs --disableDotRule --publicPath /",
+    "docs:build": "w -e docs -p --publicPath /",
     "lint": "run-p lint:*",
     "lint:es": "eslint . --cache -f friendly",
     "lint:style": "stylelint . --cache",
@@ -26,12 +27,11 @@
     "postversion": "pnpm i --no-frozen-lockfile",
     "prepare": "simple-git-hooks",
     "prerelease": "pnpm build",
-    "prevercel-build": "pnpm build",
     "release": "changeset publish",
     "serve": "sirv dist -s",
     "test": "vitest run --coverage",
     "typecov": "type-coverage",
-    "vercel-build": "w -e docs -p --publicPath /",
+    "vercel-build": "pnpm docs:build",
     "version": "changeset version"
   },
   "devDependencies": {
