@@ -1,6 +1,6 @@
-# pkg
+# vitery
 
-A simple package
+Incredible Vite plugins, make Vite greater to achieve victory
 
 ## TOC <!-- omit in toc -->
 
@@ -18,19 +18,19 @@ A simple package
 
 ```sh
 # pnpm
-pnpm add pkg
+pnpm add vitery
 
 # yarn
-yarn add pkg
+yarn add vitery
 
 # npm
-npm i pkg
+npm i vitery
 ```
 
 ### API
 
 ```js
-import echo from 'pkg'
+import echo from 'vitery'
 
 echo()
 ```

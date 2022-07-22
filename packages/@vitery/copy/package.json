@@ -1,10 +1,10 @@
 {
-  "name": "pkg",
+  "name": "@vitery/copy",
   "version": "0.0.0",
   "type": "module",
-  "description": "A simple package",
-  "repository": "git+https://github.com/un-ts/mono-lib-boilerplate.git",
-  "homepage": "https://github.com/un-ts/mono-lib-boilerplate/blob/main/packages/pkg",
+  "description": "Incredible Copy Vite plugin, make Vite greater to achieve victory",
+  "repository": "git+https://github.com/Viteryjs/vitery.git",
+  "homepage": "https://github.com/Viteryjs/vitery/blob/main/packages/vitery",
   "author": "JounQin (https://www.1stG.me) <admin@1stg.me>",
   "donate": {
     "recipients": [
@@ -46,7 +46,11 @@
   "files": [
     "lib"
   ],
+  "peerDependencies": {
+    "vite": "^2.0.0 || ^3.0.0"
+  },
   "dependencies": {
+    "cpy": "^9.0.1",
     "tslib": "^2.4.0"
   },
   "publishConfig": {

@@ -1,14 +1,24 @@
 {
-  "extends": "@1stg/tsconfig/lib",
+  "extends": "@1stg/tsconfig/lib.json",
   "compilerOptions": {
     "noEmit": true,
     "paths": {
-      "pkg": ["./packages/pkg/src"]
+      "@vitery/*": ["./packages/@vitery/*/src"],
+      "vitery": ["./packages/vitery/src"]
     }
   },
   "references": [
     {
-      "path": "./packages/pkg"
+      "path": "./packages/@vitery/copy"
+    },
+    {
+      "path": "./packages/@vitery/html"
+    },
+    {
+      "path": "./packages/@vitery/svgr"
+    },
+    {
+      "path": "./packages/vitery"
     }
   ]
 }
