@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@rollup/pluginutils": "^4.2.1",
-    "@svgr/core": "^6.3.0",
+    "@svgr/core": "^6.5.1",
     "tslib": "^2.4.0"
   },
   "publishConfig": {
