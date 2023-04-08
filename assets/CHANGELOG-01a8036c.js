@@ -1,4 +1,4 @@
-import{j as e}from"./index-30927a26.js";function t(i){const n=Object.assign({h1:"h1",p:"p",a:"a",ul:"ul",li:"li"},i.components);return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Change Log"}),`
+import{j as e}from"./index-8b742e4f.js";function t(i){const n=Object.assign({h1:"h1",p:"p",a:"a",ul:"ul",li:"li"},i.components);return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Change Log"}),`
 `,e.jsxs(n.p,{children:[`All notable changes to this project will be documented in this file.
 See `,e.jsx(n.a,{href:"https://conventionalcommits.org",children:"Conventional Commits"})," for commit guidelines."]}),`
 `,e.jsxs(n.ul,{children:[`

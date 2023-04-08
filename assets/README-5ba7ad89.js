@@ -1,4 +1,4 @@
-import{j as e}from"./index-30927a26.js";function c(s){const n=Object.assign({h1:"h1",p:"p",h2:"h2",ul:"ul",li:"li",a:"a",h3:"h3",pre:"pre",code:"code",table:"table",thead:"thead",tr:"tr",th:"th",tbody:"tbody",td:"td",img:"img"},s.components);return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"vitery"}),`
+import{j as e}from"./index-8b742e4f.js";function c(s){const n=Object.assign({h1:"h1",p:"p",h2:"h2",ul:"ul",li:"li",a:"a",h3:"h3",pre:"pre",code:"code",table:"table",thead:"thead",tr:"tr",th:"th",tbody:"tbody",td:"td",img:"img"},s.components);return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"vitery"}),`
 `,e.jsx(n.p,{children:"Incredible Vite plugins, make Vite greater to achieve victory"}),`
 `,e.jsx(n.h2,{children:"TOC "}),`
 `,e.jsxs(n.ul,{children:[`

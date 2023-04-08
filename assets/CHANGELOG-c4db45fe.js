@@ -1,0 +1,1 @@
+import{j as e}from"./index-8b742e4f.js";function o(n){const t=Object.assign({h1:"h1"},n.components);return e.jsx(t.h1,{children:"Change Log"})}function c(n={}){const{wrapper:t}=n.components||{};return t?e.jsx(t,Object.assign({},n,{children:e.jsx(o,n)})):o(n)}export{c as default};
