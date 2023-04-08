@@ -1,6 +1,6 @@
 {
   "name": "@vitery/html",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Incredible HTML Vite plugin, make Vite greater to achieve victory",
   "repository": "git+https://github.com/Viteryjs/vitery.git",
