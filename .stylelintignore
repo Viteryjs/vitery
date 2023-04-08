@@ -4,6 +4,8 @@ lib
 LICENSE
 *.json
 *.log
+*.ts
 *.tsbuildinfo
+*.tsx
 *.yaml
 *.yml

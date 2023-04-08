@@ -5,11 +5,11 @@ export default defineConfig({
   plugins: [
     autoImport({
       imports: ['vitest'],
-      dts: true,
     }),
   ],
   test: {
     coverage: {
+      provider: 'istanbul',
       reporter: ['lcov', 'json'],
     },
   },
