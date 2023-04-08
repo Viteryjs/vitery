@@ -1,7 +1,6 @@
 # @vitery/vitery
 
 [![GitHub Actions](https://github.com/Viteryjs/vitery/workflows/CI/badge.svg)](https://github.com/Viteryjs/vitery/actions/workflows/ci.yml)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Viteryjs/vitery.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Viteryjs/vitery/context:javascript)
 [![Codecov](https://img.shields.io/codecov/c/gh/Viteryjs/vitery)](https://codecov.io/gh/Viteryjs/vitery)
 [![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2FViteryjs%2Fvitery%2Fmain%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
 [![GitHub release](https://img.shields.io/github/release/Viteryjs/vitery)](https://github.com/Viteryjs/vitery/releases)
@@ -10,7 +9,7 @@
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![changesets](https://img.shields.io/badge/maintained%20with-changesets-176de3.svg)](https://github.com/atlassian/changesets)
+[![changesets](https://img.shields.io/badge/maintained%20with-changesets-176de3.svg)](https://github.com/changesets/changesets)
 
 Incredible Vite plugins, make Vite greater to achieve victory
 

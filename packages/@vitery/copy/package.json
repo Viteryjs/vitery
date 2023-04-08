@@ -6,37 +6,6 @@
   "repository": "git+https://github.com/Viteryjs/vitery.git",
   "homepage": "https://github.com/Viteryjs/vitery/blob/main/packages/vitery",
   "author": "JounQin (https://www.1stG.me) <admin@1stg.me>",
-  "donate": {
-    "recipients": [
-      {
-        "name": "unts",
-        "platform": "opencollective",
-        "address": "https://opencollective.com/unts",
-        "weight": 60
-      },
-      {
-        "name": "rxts",
-        "platform": "opencollective",
-        "address": "https://opencollective.com/rxts",
-        "weight": 20
-      },
-      {
-        "name": "1stG",
-        "email": "i@1stg.me",
-        "weight": 20,
-        "platforms": [
-          {
-            "platform": "opencollective",
-            "address": "https://opencollective.com/1stG"
-          },
-          {
-            "platform": "patreon",
-            "address": "https://www.patreon.com/1stG"
-          }
-        ]
-      }
-    ]
-  },
   "funding": "https://opencollective.com/unts",
   "license": "MIT",
   "engines": {
@@ -47,11 +16,11 @@
     "lib"
   ],
   "peerDependencies": {
-    "vite": "^2.0.0 || ^3.0.0"
+    "vite": "^2.0.0 || ^3.0.0 || ^4.0.0"
   },
   "dependencies": {
     "cpy": "^9.0.1",
-    "tslib": "^2.4.0"
+    "tslib": "^2.5.0"
   },
   "publishConfig": {
     "access": "public",
