@@ -45,7 +45,7 @@
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
-    "@types/web": "^0.0.99",
+    "@types/web": "^0.0.213",
     "@vitejs/plugin-react-swc": "^3.2.0",
     "@vitery/copy": "workspace:*",
     "@vitery/html": "workspace:*",
